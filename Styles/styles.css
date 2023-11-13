@@ -20,7 +20,30 @@ h2 {
   flex-direction: column;
   background-color: #fff;
   box-shadow: 6px 6px 20px rgb(0, 0, 0, 0.1);
-  padding: 60px 60px;
+  padding: 30px 60px;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.nav__link {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: red;
+}
+
+.nav__link_current {
+  font-weight: bold;
 }
 
 .about {
@@ -113,6 +136,11 @@ h2 {
   font-weight: bold;
   line-height: 20px;
   color: #fb6b3a;
+}
+.organization__function {
+  font-weight: bold;
+  line-height: 20px;
+  color: #676767;
 }
 .organization__profil {
   font-weight: normal;
